@@ -1,0 +1,293 @@
+body {
+  background-color: white;
+  font-family: "nyt-franklin", helvetica, arial, sans-serif;
+  display: block;
+  height: 100vh;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 15px 2px;
+  position: sticky;
+  background-color: white;
+  top: 0;
+  left: 0;
+  border-bottom: 1px solid #e2e2e2;
+  margin: 0 auto;
+  max-width: 1605px;
+  height: 36px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+}
+
+.nav-left {
+  padding: 5px;
+}
+.nav-left > a {
+  padding: 5px;
+}
+
+.btn {
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.6s ease 0s;
+  vertical-align: middle;
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  color: rgb(255, 255, 255);
+  font-size: 11px;
+  line-height: 11px;
+  font-weight: 700;
+  letter-spacing: 0.05em;
+  padding: 11px 12px 8px;
+  text-transform: uppercase;
+  margin: 1px;
+}
+
+.btn:hover {
+  background-color: rgb(50, 104, 145);
+  border: 1px solid rgb(50, 104, 145);
+}
+
+.fas {
+  padding: 8px;
+}
+
+.article-link {
+  font-size: 14.25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.7px;
+  line-height: 19px;
+}
+
+.article-link:hover {
+  text-decoration: underline;
+}
+
+.title {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  font-weight: 700;
+  font-style: italic;
+}
+
+.hero {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: 100%;
+  margin-bottom: 20px;
+}
+
+figure {
+  max-width: 945px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 50px;
+}
+
+figcaption {
+  display: inline;
+  margin-left: 0;
+  max-width: 720px;
+  text-align: left;
+}
+
+img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: cover;
+}
+
+.img-caption {
+  display: inline;
+}
+
+.credit {
+  display: inline;
+  color: #888;
+}
+
+.article-main {
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.article-header {
+  display: flex;
+  justify-content: flex-start;
+  max-width: 600px;
+}
+
+.article-subheader {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  align-items: center;
+}
+
+.date {
+  font-weight: 500;
+  color: #333;
+  font-size: 0.8125rem;
+  line-height: 1rem;
+  align-self: center;
+  padding: 5px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  color: #999;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.fas,
+.fab {
+  width: 15px;
+  height: 15px;
+  background-color: #eee;
+  border: 1px #eee solid;
+  border-radius: 100%;
+  padding: 5px;
+}
+
+.article-text {
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+}
+
+.emphasis {
+  font-weight: 700;
+}
+
+.grid {
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.grid-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.grid-top-header {
+  font-size: 1.25rem;
+  line-height: 1.5rem;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.grid-bottom-header {
+  font-size: 0.875rem;
+  line-height: 1.125rem;
+  font-weight: 400;
+  font-style: normal;
+  margin-bottom: 10px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-gap: 10px;
+  justify-items: stretch;
+  justify-content: stretch;
+}
+
+.grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.grid-img {
+  height: 45%;
+}
+.grid-body {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000000;
+}
+
+.grid-credit::before {
+  width: 60px;
+  content: "";
+  display: inline-block;
+  height: 1px;
+  margin: 0 0 13px;
+  background-color: #000;
+}
+
+.grid-credit {
+  margin: 0 0 1em;
+  font-size: 0.875rem;
+  line-height: 18px;
+  line-height: 1.125rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.visible-link {
+  text-decoration: underline;
+  color: #326891;
+}
+
+.sub-text {
+  font-size: 0.75rem;
+  line-height: 1rem;
+  color: rgb(102, 102, 102);
+}
+
+.comments {
+  width: 50%;
+}
+.comments-btn {
+  background-color: rgb(86, 123, 149);
+  border: 1px solid rgb(50, 104, 145);
+  border-radius: 3px;
+  color: white;
+  display: block;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  line-height: 1.5rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px 0px;
+  text-transform: uppercase;
+  transition: background-color 0.6s ease 0s;
+  width: 100%;
+  cursor: pointer;
+}
+
+.comments-btn:hover {
+  background-color: rgb(50, 104, 145);
+}

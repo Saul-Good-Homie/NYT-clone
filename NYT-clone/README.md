@@ -4,4 +4,4 @@ CSS Project from [The Odin Project](https://www.theodinproject.com/lessons/posit
 
 Created by Saul Belisle, follow me on Twitter: [@saul_good_homie]()
 
-View this project [online](https://saul-good-homie.github.io/NYT-clone/)
+View this project [online](https://saul-good-homie.github.io/NYT-clone/NYT-clone)
